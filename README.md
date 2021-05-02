@@ -1,0 +1,1 @@
+# quarkus-buildpacks-waypoint-integration
