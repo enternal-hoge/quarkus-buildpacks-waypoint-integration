@@ -26,6 +26,43 @@ This is a personal and experimental project, so you may quit prematurely.
 ## Install pack command
 
 ```bash
+$ brew install buildpacks/tap/pack
+$ pack
+CLI for building apps using Cloud Native Buildpacks
+
+Usage:
+  pack [command]
+
+Available Commands:
+  build                 Generate app image from source code
+  builder               Interact with builders
+  buildpack             Interact with buildpacks
+  config                Interact with your local pack config file
+  inspect               Show information about a built app image
+  stack                 Interact with stacks
+  rebase                Rebase app image with latest run image
+  completion            Outputs completion script location
+  report                Display useful information for reporting an issue
+  version               Show current 'pack' version
+  help                  Help about any command
+
+Flags:
+  -h, --help         Help for 'pack'
+      --no-color     Disable color output
+  -q, --quiet        Show less output
+      --timestamps   Enable timestamps in output
+  -v, --verbose      Show more output
+      --version      Show current 'pack' version
+
+Use "pack [command] --help" for more information about a command.
+
+## for mac
+$ brew install coreutils
+```
+
+## Install Quarkus Buildpacks
+
+```bash
 $ git clone https://github.com/quarkusio/quarkus-buildpacks.git
 $ cd quarkus-buildpacks
 $ ./create-buildpacks.sh
